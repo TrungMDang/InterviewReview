@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/out/production" />
+    <output-test url="file://$MODULE_DIR$/out" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Medium/2_Add2NumberLinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hard/4_Median2SortedArrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Easy/1_TwoSum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Easy/7_ReverseInteger" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Medium/3_LongestSubstringWithoutRepeatingChars" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
