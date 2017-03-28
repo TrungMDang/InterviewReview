@@ -3,7 +3,7 @@
  */
 import java.util.*;
 
-public class TwoSumMain {
+public class _1_TwoSumMain {
 
 
     /***

@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Easy/1_TwoSum" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Easy/7_ReverseInteger" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Medium/3_LongestSubstringWithoutRepeatingChars" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Easy/9_PalindromeNumber" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

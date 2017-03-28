@@ -15,10 +15,10 @@
  *  - If there is carry after exhausting one of the list, append 1.
  *
  */
-public class Add2NumberLinkedListMain {
+public class _2_Add2NumberLinkedListMain {
 
-    public static ListNode addTwoNumbers(final ListNode l1, final ListNode l2) {
-        ListNode first = l1, second = l2;
+    public static _2_ListNode addTwoNumbers(final _2_ListNode l1, final _2_ListNode l2) {
+        _2_ListNode first = l1, second = l2;
         StringBuilder result = new StringBuilder();
         int carry = 0;
         while (first != null && second != null) {
@@ -33,7 +33,7 @@ public class Add2NumberLinkedListMain {
             first = first.next;
             second = second.next;
         }
-        ListNode remain = first == null ? second : first;
+        _2_ListNode remain = first == null ? second : first;
         while (remain != null) {
             int sum = remain.val + carry;
             if (sum > 9) {
@@ -60,11 +60,11 @@ public class Add2NumberLinkedListMain {
      * @param index the position to start constructing.
      * @return the new linked list
      */
-    private static ListNode linkedListConstruct(final StringBuilder s, int index) {
-        ListNode head = null;
+    private static _2_ListNode linkedListConstruct(final StringBuilder s, int index) {
+        _2_ListNode head = null;
             if (s.length() != 0 && index < s.length()) {
                     try {
-                        head = new ListNode(Integer.parseInt(s.substring(index, index + 1)));
+                        head = new _2_ListNode(Integer.parseInt(s.substring(index, index + 1)));
                     } catch (NumberFormatException e) {
                         return head;
                     }
@@ -74,9 +74,9 @@ public class Add2NumberLinkedListMain {
     }
     public static void main(String... args) {
         int a = 1000000000 * 9;
-        ListNode l1 = linkedListConstruct(new StringBuilder("98"), 0);
-        ListNode l2 = linkedListConstruct(new StringBuilder("1"), 0);
-        ListNode ans = addTwoNumbers(l1, l2);
+        _2_ListNode l1 = linkedListConstruct(new StringBuilder("98"), 0);
+        _2_ListNode l2 = linkedListConstruct(new StringBuilder("1"), 0);
+        _2_ListNode ans = addTwoNumbers(l1, l2);
 
     }
 

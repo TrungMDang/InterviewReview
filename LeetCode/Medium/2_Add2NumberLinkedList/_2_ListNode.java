@@ -4,10 +4,10 @@
 /**
  * Definition for singly-linked list.
  */
-public class ListNode {
+public class _2_ListNode {
     int val;
-    ListNode next;
-    ListNode(int x) {
+    _2_ListNode next;
+    _2_ListNode(int x) {
         val = x;
     }
 
