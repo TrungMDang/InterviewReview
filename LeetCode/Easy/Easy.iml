@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/_14_LongestCommonPrefix" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_20_ValidParentheses" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/_21_MergeTwoSortedLists" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_26_RemoveDuplicatesFromSortedArray" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
